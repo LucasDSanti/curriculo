@@ -1,0 +1,121 @@
+body, header, img, div, ul, h1, h4, main, section, h2, p, footer, a{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+body{}
+
+header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+header .icon-user{
+
+    display: flex;
+    justify-content: center;
+}
+
+header .icon-user img{
+
+    border-radius: 50%;
+}
+
+header .info{}
+
+header .info ul{}
+
+header .info ul h1{
+
+    margin: 10px
+}
+
+header .info ul h4{
+
+    margin: 5px
+}
+
+main{
+
+    padding: 20px;
+}
+
+main div{
+
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main div .caixa-esquerda{
+
+    flex-wrap: wrap;
+}
+
+main div .caixa-esquerda section{
+
+    border: 1px solid black;
+}
+
+main div .caixa-esquerda section h2{
+
+    margin: 10px;
+}
+
+main div .caixa-esquerda section p{
+
+    margin: 10px;
+}
+
+main div .caixa-direita{
+
+    flex-wrap: wrap;
+}
+
+main div .caixa-direita section{
+
+    border: 1px solid black;
+}
+
+main div .caixa-direita section h2{
+
+    margin: 10px;
+}
+
+main div .caixa-direita section p{
+
+    margin: 10px;
+}
+
+footer{
+
+    padding: 20px;
+}
+
+footer div{
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer div ul{
+
+    display: flex;
+}
+
+footer div ul li{
+
+    margin-right: 8px;
+}
+
+footer div ul li a{}
+
+footer div ul li a img{}
