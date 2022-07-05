@@ -1,4 +1,6 @@
-body, header, img, div, ul, h1, h4, main, section, h2, p, footer, a{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+html, body, header, div, img, ul, h1, h4, main, section, h2, p,footer, nav, li, a{
 
     padding: 0;
     margin: 0;
@@ -8,114 +10,257 @@ body, header, img, div, ul, h1, h4, main, section, h2, p, footer, a{
     outline: none;
 }
 
-body{}
+.colun{
+
+    flex-basis: 49%;
+}
+
+.hidden{
+
+    display: none;
+}
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
 
 header{
 
-    display: flex;
-    justify-content: space-around;
+    background-color: #0b13a9;
+    padding: 30px 30px 0;
+}
+
+header .container{
+
+    background-color: #ffffff;
+}
+
+header .container .line{
+
     align-items: center;
-    padding: 20px;
 }
 
-header .icon-user{
+header .container .line .icon-user{
 
-    display: flex;
-    justify-content: center;
+    flex-basis: 30%;
+    margin-left: 50px;
 }
 
-header .icon-user img{
+header .container .line .icon-user img{
 
+    max-width: 90%;
     border-radius: 50%;
 }
 
-header .info{}
+header .container .line .info{
 
-header .info ul{}
-
-header .info ul h1{
-
-    margin: 10px
+    flex-basis: 60%;
+    text-align: center;
 }
 
-header .info ul h4{
+header .container .line .info h1{
 
-    margin: 5px
+    font-size: 1.5rem;
+    color: #000;
+    padding: 0 0 20px;
 }
 
-main{
+header .container .line .info p{
 
+    margin-top: 10px;
+}
+
+main .colun{
+    
     padding: 20px;
 }
 
-main div{
+main .container{}
 
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
+main .container .line{}
+
+main .container .line .caixa-esquerda{}
+
+main .container .line .caixa-esquerda section{
+
+    border-bottom: 1px solid #D4E9FF;
+    margin: 0 0 20px;
+    min-height: 187px;
+    color: #000;
 }
 
-main div .caixa-esquerda{
+main .container .line .caixa-esquerda section h2{
 
-    flex-wrap: wrap;
+    font-size: 1.3rem;
+    margin: 0 0 15px;
 }
 
-main div .caixa-esquerda section{
+main .container .line .caixa-esquerda section p{
 
-    border: 1px solid black;
+    font-size: 0.9rem;
+    color: #636363;
+    line-height: 1.5;
 }
 
-main div .caixa-esquerda section h2{
+main .container .line .caixa-esquerda section ul li{
 
-    margin: 10px;
+    margin: 0 0 12px;
 }
 
-main div .caixa-esquerda section p{
+main .container .line .caixa-direita section{
 
-    margin: 10px;
+    border-bottom: 1px solid #D4E9FF;
+    margin: 0 0 20px;
+    min-height: 187px;
+    color: #000;
 }
 
-main div .caixa-direita{
+main .container .line .caixa-direita section h2{
 
-    flex-wrap: wrap;
+    font-size: 1.3rem;
+    margin: 0 0 15px;
 }
 
-main div .caixa-direita section{
+main .container .line .caixa-direita section h3{
 
-    border: 1px solid black;
+    font-size: 1.1rem;
 }
 
-main div .caixa-direita section h2{
+main .container .line .caixa-direita section strong{
 
-    margin: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 5px 0 10px;
+    display: inline-block;
 }
 
-main div .caixa-direita section p{
+main .container .line .caixa-direita section p{
 
-    margin: 10px;
+    font-size: 0.9rem;
+    color: #636363;
+    line-height: 1.5;
 }
 
 footer{
 
-    padding: 20px;
+    background-color: #0b13a9;
 }
 
-footer div{
 
-    max-width: 1200px;
-    margin: 0 auto;
+footer .container{
+
+    padding: 20px 0 15px;
 }
 
-footer div ul{
+footer .container nav{}
 
-    display: flex;
+footer nav ul{
+
+    margin: 20px 0 50px;
+    padding: 50px 0 0;
+    text-align: center;
 }
 
-footer div ul li{
+footer nav ul li{
 
-    margin-right: 8px;
+    margin: 15px 28px;
+    text-align: center;
+    display: inline-block;
 }
 
-footer div ul li a{}
+footer nav ul li a{
 
-footer div ul li a img{}
+    color: #FFF;
+}
+
+footer nav ul li a img{
+
+    width: 40px;
+    transition: .2s;
+}
+
+footer nav ul li a:hover img{
+    transform: scale(1.2) translateY(-10px);
+}
+
+@media only screen and (min-width: 768px) {
+    
+    header{
+
+        padding: 30px 0 0;
+    }
+
+    .container{
+
+        width: 100%;
+        max-width: 1125px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .line{
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    header .container .line .icon-user img{
+
+        max-width: 250px;
+        border-radius: 50%;
+    }
+
+    header .container .line .info{
+
+        text-align: left;
+    }
+
+    main .colun{
+
+        padding: 0;
+    }
+
+    main .container .line .caixa-esquerda section{
+
+        border: 2px solid #45dbfc;
+        padding: 16px;
+        position: relative;
+    }
+
+    main .container .line .caixa-direita section{
+
+        border: 2px solid #45dbfc;
+        padding: 11px 0px 0px 10px;
+        position: relative;
+    }
+
+    main .container .line .caixa-direita section h3 {
+
+        margin-top: 22px;
+    }
+
+    footer nav ul{
+
+        display: flex;
+        justify-content: left;
+        padding: 0px 0px 0px 30px;
+    }
+
+    footer nav ul li{
+
+        margin: 0 14px;
+        text-align: center;
+        display: initial;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    main .container .line .caixa-direita section h3 {
+
+        margin-top: 29px;
+    }
+}
