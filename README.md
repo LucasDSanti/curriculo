@@ -1,3 +1,3 @@
 ## Projeto exemplo de um currículo
 
-#### Não concluído
+#### Projeto Concluído e aberto para atualizações

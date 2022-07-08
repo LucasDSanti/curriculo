@@ -27,7 +27,7 @@ body{
 
 header{
 
-    background-color: #0b13a9;
+    background-color: #94959f;
     padding: 30px 30px 0;
 }
 
@@ -44,13 +44,14 @@ header .container .line{
 header .container .line .icon-user{
 
     flex-basis: 30%;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 header .container .line .icon-user img{
 
     max-width: 90%;
     border-radius: 50%;
+    margin-top: 10px;
 }
 
 header .container .line .info{
@@ -63,7 +64,7 @@ header .container .line .info h1{
 
     font-size: 1.5rem;
     color: #000;
-    padding: 0 0 20px;
+    padding: 10px 0 20px 0;
 }
 
 header .container .line .info p{
@@ -73,69 +74,145 @@ header .container .line .info p{
 
 main .colun{
     
-    padding: 20px;
+    padding: 15px 0px 0px 20px;
 }
 
-main .container{}
-
-main .container .line{}
-
-main .container .line .caixa-esquerda{}
-
-main .container .line .caixa-esquerda section{
+main .container .line .caixa-esquerda .perfil-profissional{
 
     border-bottom: 1px solid #D4E9FF;
-    margin: 0 0 20px;
-    min-height: 187px;
+    margin: 0 0 10px;
     color: #000;
 }
 
-main .container .line .caixa-esquerda section h2{
+main .container .line .caixa-esquerda .perfil-profissional h2{
 
     font-size: 1.3rem;
     margin: 0 0 15px;
 }
 
-main .container .line .caixa-esquerda section p{
+main .container .line .caixa-esquerda .perfil-profissional p{
+
+    font-size: 0.9rem;
+    color: #636363;
+    line-height: 1.5;
+    padding: 0 0 10px 0;
+}
+
+main .container .line .caixa-esquerda .objetivos{
+
+    border-bottom: 1px solid #D4E9FF;
+    margin: 0 0 10px;
+    color: #000;
+}
+
+main .container .line .caixa-esquerda .objetivos h2{
+
+    font-size: 1.3rem;
+    margin: 0 0 15px;
+}
+
+main .container .line .caixa-esquerda .objetivos p{
+
+    font-size: 0.9rem;
+    color: #636363;
+    line-height: 1.5;
+    padding: 0 0 10px 0;
+}
+
+main .container .line .caixa-esquerda .habilidades{
+
+    border-bottom: 1px solid #D4E9FF;
+    margin: 0 0 10px;
+    color: #000;
+}
+
+main .container .line .caixa-esquerda .habilidades h2{
+
+    font-size: 1.3rem;
+    margin: 0 0 15px;
+}
+
+main .container .line .caixa-esquerda .habilidades li{
+
+    margin: 0 0 12px;
+}
+
+main .container .line .caixa-direita{
+
+    padding: 0 0 0 20px;
+}
+
+main .container .line .caixa-direita .formacao{
+
+    border-bottom: 1px solid #D4E9FF;
+    margin: 0 0 10px;
+    color: #000;
+}
+
+main .container .line .caixa-direita .formacao h2{
+
+    font-size: 1.3rem;
+    margin: 0 0 15px;
+}
+
+main .container .line .caixa-direita .formacao ul li{
+
+    margin: 0 0 12px;
+}
+
+main .container .line .caixa-direita .formacao ul li h3{
+
+    font-size: 1.1rem;
+    margin: 15px 0 0 0;
+}
+
+main .container .line .caixa-direita .formacao ul li strong{
+
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0 0 5px;
+    display: inline-block;
+}
+
+main .container .line .caixa-direita .formacao ul li p{
 
     font-size: 0.9rem;
     color: #636363;
     line-height: 1.5;
 }
 
-main .container .line .caixa-esquerda section ul li{
+main .container .line .caixa-direita .experiencia{
 
-    margin: 0 0 12px;
-}
-
-main .container .line .caixa-direita section{
-
-    border-bottom: 1px solid #D4E9FF;
     margin: 0 0 20px;
-    min-height: 187px;
     color: #000;
 }
 
-main .container .line .caixa-direita section h2{
+main .container .line .caixa-direita .experiencia h2{
 
     font-size: 1.3rem;
     margin: 0 0 15px;
 }
 
-main .container .line .caixa-direita section h3{
-
-    font-size: 1.1rem;
+main .container .line .caixa-direita .experiencia ul li{
+    
+    margin: 0 0 12px;
 }
 
-main .container .line .caixa-direita section strong{
+main .container .line .caixa-direita .experiencia ul li h3{
+
+    font-size: 1.1rem;
+    margin: 15px 0 0 0;
+}
+
+main .container .line .caixa-direita .experiencia ul li strong{
 
     font-size: 0.9rem;
     font-weight: 500;
-    margin: 5px 0 10px;
+    margin: 0 0 5px;
     display: inline-block;
 }
 
-main .container .line .caixa-direita section p{
+main .container .line .caixa-direita .experiencia ul li p{
 
     font-size: 0.9rem;
     color: #636363;
@@ -144,16 +221,14 @@ main .container .line .caixa-direita section p{
 
 footer{
 
-    background-color: #0b13a9;
+    background-color: #94959f;
 }
 
 
 footer .container{
 
-    padding: 20px 0 15px;
+    padding: 0 0 1px;
 }
-
-footer .container nav{}
 
 footer nav ul{
 
@@ -184,6 +259,11 @@ footer nav ul li a:hover img{
     transform: scale(1.2) translateY(-10px);
 }
 
+footer nav ul li a .github{
+
+    margin-left: -5px;
+}
+
 @media only screen and (min-width: 768px) {
     
     header{
@@ -207,6 +287,11 @@ footer nav ul li a:hover img{
         justify-content: space-between;
     }
 
+    header .container .line .icon-user{
+
+        margin: 0;
+    }
+
     header .container .line .icon-user img{
 
         max-width: 250px;
@@ -223,25 +308,61 @@ footer nav ul li a:hover img{
         padding: 0;
     }
 
-    main .container .line .caixa-esquerda section{
+    main .container .line .caixa-esquerda .perfil-profissional{
 
         border: 2px solid #45dbfc;
         padding: 16px;
         position: relative;
     }
 
-    main .container .line .caixa-direita section{
+    main .container .line .caixa-esquerda .objetivos{
+
+        border: 2px solid #45dbfc;
+        padding: 16px;
+        position: relative;
+    }
+
+    main .container .line .caixa-esquerda .habilidades{
+
+        border: 2px solid #45dbfc;
+        padding: 16px;
+        position: relative;
+    }
+
+    main .container .line .caixa-direita{
+
+        padding: 0;
+    }
+
+    main .container .line .caixa-direita .formacao{
 
         border: 2px solid #45dbfc;
         padding: 11px 0px 0px 10px;
         position: relative;
     }
 
-    main .container .line .caixa-direita section h3 {
+    main .container .line .caixa-direita .formacao ul li strong{
 
-        margin-top: 22px;
+        margin: 0;
     }
 
+    main .container .line .caixa-direita .experiencia{
+
+        border: 2px solid #45dbfc;
+        padding: 11px 0px 0px 10px;
+        position: relative;
+    }
+
+    main .container .line .caixa-direita .experiencia ul li h3{
+
+        margin: 22px 0 13px 0;
+    }
+
+    footer .container{
+
+        padding: 30px 0 1px 0;
+    }
+    
     footer nav ul{
 
         display: flex;
@@ -259,8 +380,29 @@ footer nav ul li a:hover img{
 
 @media only screen and (min-width: 1024px){
 
-    main .container .line .caixa-direita section h3 {
+    header .container .line .icon-user img{
 
-        margin-top: 29px;
+        margin-left: 35px;
+    }
+    
+    main .container .line .caixa-direita .experiencia ul li h3{
+
+        margin: 22px 0 6.8px 0;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+
+    header .container .line .icon-user img{
+
+        margin-left: 55px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+
+    .container {
+
+        padding: 40px;
     }
 }
